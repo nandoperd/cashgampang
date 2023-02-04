@@ -1,0 +1,156 @@
+CRITICAL - 2023-01-27 02:37:58 --> Undefined property: App\Controllers\Fots::$ModelKelas
+in APPPATH\Controllers\Fots.php on line 116.
+ 1 APPPATH\Controllers\Fots.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Fots::$ModelKelas', 'APPPATH\\Controllers\\Fots.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Fots->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fots))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 03:04:14 --> syntax error, unexpected integer "0", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Fots.php on line 115.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('fots')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('fots')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('fots')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 03:04:18 --> syntax error, unexpected integer "0", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Fots.php on line 115.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('fots/add')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('fots/add')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('fots/add')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 03:07:25 --> syntax error, unexpected integer "0", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Fots.php on line 115.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('fots/add')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('fots/add')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('fots/add')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 03:07:42 --> syntax error, unexpected single-quoted string "0", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Fots.php on line 115.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('fots/add')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('fots/add')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('fots/add')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 03:15:43 --> Undefined variable $LA
+in APPPATH\Controllers\Fots.php on line 106.
+ 1 APPPATH\Controllers\Fots.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LA', 'APPPATH\\Controllers\\Fots.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Fots->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fots))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 03:16:34 --> Undefined variable $bungasaja
+in APPPATH\Controllers\Fots.php on line 107.
+ 1 APPPATH\Controllers\Fots.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bungasaja', 'APPPATH\\Controllers\\Fots.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Fots->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fots))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 03:17:01 --> Undefined variable $cicilan_adm
+in APPPATH\Controllers\Fots.php on line 114.
+ 1 APPPATH\Controllers\Fots.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cicilan_adm', 'APPPATH\\Controllers\\Fots.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Fots->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fots))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 03:17:10 --> Undefined variable $cicilan
+in APPPATH\Controllers\Fots.php on line 115.
+ 1 APPPATH\Controllers\Fots.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cicilan', 'APPPATH\\Controllers\\Fots.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Fots->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fots))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 03:23:11 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Fots.php on line 88.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('fots/add')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('fots/add')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('fots/add')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 03:23:23 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\Fots.php on line 88.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('fots/add')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('fots/add')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('fots/add')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 21:00:55 --> Undefined property: App\Controllers\Fots::$ModelKelas
+in APPPATH\Controllers\Fots.php on line 123.
+ 1 APPPATH\Controllers\Fots.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Fots::$ModelKelas', 'APPPATH\\Controllers\\Fots.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Fots->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fots))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 21:01:10 --> Undefined property: App\Controllers\Fots::$ModelSiswa
+in APPPATH\Controllers\Fots.php on line 214.
+ 1 APPPATH\Controllers\Fots.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Fots::$ModelSiswa', 'APPPATH\\Controllers\\Fots.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Fots->delete('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fots))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-27 21:33:36 --> Column 'cicilan' cannot be null
+CRITICAL - 2023-01-27 21:33:36 --> Column 'cicilan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `data-fots` (`id_kontrak`, `nik`, `nama`, `divisi`, `gol`, `nomor_wa`, `tgl_pinjaman`, `tgl_selesai`, `pinjaman`, `adm`, `tenor`, `bunga`, `cicilan`, `tenor_jalan`) VALUES (\'14246\', \'4505/I/300\', \'Sugiono\', \'OB\', \'HO\', \'6258484948489\', \'2023-01-28\', \'2023-04-29\', \'1000000\', \'80000\', \'3\', \'35\', NULL, \'0\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `data-fots` (`id_kontrak`, `nik`, `nama`, `divisi`, `gol`, `nomor_wa`, `tgl_pinjaman`, `tgl_selesai`, `pinjaman`, `adm`, `tenor`, `bunga`, `cicilan`, `tenor_jalan`) VALUES (\'14246\', \'4505/I/300\', \'Sugiono\', \'OB\', \'HO\', \'6258484948489\', \'2023-01-28\', \'2023-04-29\', \'1000000\', \'80000\', \'3\', \'35\', NULL, \'0\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `data-fots` (`id_kontrak`, `nik`, `nama`, `divisi`, `gol`, `nomor_wa`, `tgl_pinjaman`, `tgl_selesai`, `pinjaman`, `adm`, `tenor`, `bunga`, `cicilan`, `tenor_jalan`) VALUES (\'14246\', \'4505/I/300\', \'Sugiono\', \'OB\', \'HO\', \'6258484948489\', \'2023-01-28\', \'2023-04-29\', \'1000000\', \'80000\', \'3\', \'35\', NULL, \'0\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data-fots` (`id_kontrak`, `nik`, `nama`, `divisi`, `gol`, `nomor_wa`, `tgl_pinjaman`, `tgl_selesai`, `pinjaman`, `adm`, `tenor`, `bunga`, `cicilan`, `tenor_jalan`) VALUES (:id_kontrak:, :nik:, :nama:, :divisi:, :gol:, :nomor_wa:, :tgl_pinjaman:, :tgl_selesai:, :pinjaman:, :adm:, :tenor:, :bunga:, :cicilan:, :tenor_jalan:)', [...], false)
+ 5 APPPATH\Models\ModelFots.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Fots.php(108): App\Models\ModelFots->add([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Fots->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fots))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 21:36:35 --> Undefined property: App\Controllers\Fots::$ModelKelas
+in APPPATH\Controllers\Fots.php on line 123.
+ 1 APPPATH\Controllers\Fots.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Fots::$ModelKelas', 'APPPATH\\Controllers\\Fots.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Fots->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fots))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 21:44:10 --> Undefined property: App\Controllers\Fots::$ModelKelas
+in APPPATH\Controllers\Fots.php on line 123.
+ 1 APPPATH\Controllers\Fots.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Fots::$ModelKelas', 'APPPATH\\Controllers\\Fots.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Fots->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fots))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 22:04:29 --> Undefined property: App\Controllers\Fots::$ModelKelas
+in APPPATH\Controllers\Fots.php on line 123.
+ 1 APPPATH\Controllers\Fots.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Fots::$ModelKelas', 'APPPATH\\Controllers\\Fots.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Fots->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fots))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-27 22:06:51 --> Unknown column 'tbl-payroll.id_data' in 'on clause'
+CRITICAL - 2023-01-27 22:06:51 --> Unknown column 'tbl-payroll.id_data' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-payroll`
+LEFT JOIN `data-fots` ON `data-fots`.`id_data` = `tbl-payroll`.`id_data`
+ORDER BY `tbl-payroll`.`nama_payroll` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-payroll`
+LEFT JOIN `data-fots` ON `data-fots`.`id_data` = `tbl-payroll`.`id_data`
+ORDER BY `tbl-payroll`.`nama_payroll` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-payroll`
+LEFT JOIN `data-fots` ON `data-fots`.`id_data` = `tbl-payroll`.`id_data`
+ORDER BY `tbl-payroll`.`nama_payroll` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-payroll`
+LEFT JOIN `data-fots` ON `data-fots`.`id_data` = `tbl-payroll`.`id_data`
+ORDER BY `tbl-payroll`.`nama_payroll` ASC', [], false)
+ 5 APPPATH\Models\ModelPayroll.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Payroll.php(21): App\Models\ModelPayroll->allData()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

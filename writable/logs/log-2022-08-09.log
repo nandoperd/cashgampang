@@ -1,0 +1,65 @@
+ERROR - 2022-08-09 07:37:55 --> Unknown column 'tbl-kelas.id_kelas' in 'order clause'
+CRITICAL - 2022-08-09 07:37:55 --> Unknown column 'tbl-kelas.id_kelas' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-tp`
+ORDER BY `tbl-kelas`.`id_kelas` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-tp`
+ORDER BY `tbl-kelas`.`id_kelas` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-tp`
+ORDER BY `tbl-kelas`.`id_kelas` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-tp`
+ORDER BY `tbl-kelas`.`id_kelas` DESC', [], false)
+ 5 APPPATH\Models\ModelTp.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tp.php(19): App\Models\ModelTp->allData()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tp->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tp))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-09 07:41:47 --> Undefined variable $kelas
+in APPPATH\Views\admin\v_tp.php on line 40.
+ 1 APPPATH\Views\admin\v_tp.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'APPPATH\\Views\\admin\\v_tp.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\v_tp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/v_tp', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/v_tp')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Tp.php(22): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tp->index()
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tp))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-09 10:13:26 --> Too few arguments to function App\Controllers\Tp::add(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Tp.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tp->add()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tp))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-09 10:49:17 --> Undefined array key "kelas"
+in APPPATH\Views\admin\v_tp.php on line 159.
+ 1 APPPATH\Views\admin\v_tp.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'APPPATH\\Views\\admin\\v_tp.php', 159)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\v_tp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/v_tp', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/v_tp')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Tp.php(22): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tp->index()
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tp))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

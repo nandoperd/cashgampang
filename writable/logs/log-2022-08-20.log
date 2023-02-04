@@ -1,0 +1,1201 @@
+CRITICAL - 2022-08-20 05:27:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Mapel.php(35): CodeIgniter\Model->__call('allDataMapel', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:17:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Mapel.php(35): CodeIgniter\Model->__call('allDataMapel', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:17:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Mapel.php(35): CodeIgniter\Model->__call('allDataMapel', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:17:09 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Mapel.php(35): CodeIgniter\Model->__call('allDataMapel', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:17:20 --> Undefined array key "nama_guru"
+in APPPATH\Views\admin\mapel\v_detail.php on line 79.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_guru"', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:19:15 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:23:59 --> Too few arguments to function App\Controllers\Mapel::detail(), 1 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 2 expected
+in APPPATH\Controllers\Mapel.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:24:50 --> Too few arguments to function App\Controllers\Mapel::detail(), 1 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 2 expected
+in APPPATH\Controllers\Mapel.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:24:51 --> Too few arguments to function App\Controllers\Mapel::detail(), 1 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 2 expected
+in APPPATH\Controllers\Mapel.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:25:20 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:26:31 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:28:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\mapel\v_detail.php on line 17.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:28:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\mapel\v_detail.php on line 17.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:31:11 --> Undefined array key "nama_guru"
+in APPPATH\Views\admin\mapel\v_detail.php on line 79.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_guru"', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:31:12 --> Undefined array key "nama_guru"
+in APPPATH\Views\admin\mapel\v_detail.php on line 79.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_guru"', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 06:31:39 --> Unknown column 'tbl-guru.id_mapel' in 'on clause'
+CRITICAL - 2022-08-20 06:31:39 --> Unknown column 'tbl-guru.id_mapel' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_mapel`
+ORDER BY `nama_guru` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_mapel`
+ORDER BY `nama_guru` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_mapel`
+ORDER BY `nama_guru` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_mapel`
+ORDER BY `nama_guru` ASC', [], false)
+ 5 APPPATH\Models\ModelMapel.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mapel.php(36): App\Models\ModelMapel->allDataGuru('39')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 06:31:53 --> Unknown column 'tbl-guru.id_kelas' in 'on clause'
+CRITICAL - 2022-08-20 06:31:53 --> Unknown column 'tbl-guru.id_kelas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+ORDER BY `nama_guru` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+ORDER BY `nama_guru` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+ORDER BY `nama_guru` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+ORDER BY `nama_guru` ASC', [], false)
+ 5 APPPATH\Models\ModelMapel.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mapel.php(36): App\Models\ModelMapel->allDataGuru('39')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 06:31:58 --> Unknown column 'tbl-guru.id_kelas' in 'on clause'
+CRITICAL - 2022-08-20 06:31:58 --> Unknown column 'tbl-guru.id_kelas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+ORDER BY `nama_guru` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+ORDER BY `nama_guru` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+ORDER BY `nama_guru` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+ORDER BY `nama_guru` ASC', [], false)
+ 5 APPPATH\Models\ModelMapel.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mapel.php(36): App\Models\ModelMapel->allDataGuru('39')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:32:06 --> Undefined array key "nama_guru"
+in APPPATH\Views\admin\mapel\v_detail.php on line 79.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_guru"', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(39): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:32:08 --> Undefined array key "nama_guru"
+in APPPATH\Views\admin\mapel\v_detail.php on line 79.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_guru"', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(39): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 06:32:24 --> Unknown column 'tbl-guru.id_kelas' in 'on clause'
+CRITICAL - 2022-08-20 06:32:24 --> Unknown column 'tbl-guru.id_kelas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+ORDER BY `nama_guru` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+ORDER BY `nama_guru` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+ORDER BY `nama_guru` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+ORDER BY `nama_guru` ASC', [], false)
+ 5 APPPATH\Models\ModelMapel.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mapel.php(36): App\Models\ModelMapel->allDataGuru('39')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 06:33:09 --> Column 'id_guru' in where clause is ambiguous
+CRITICAL - 2022-08-20 06:33:09 --> Column 'id_guru' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+WHERE `id_guru` = :id_guru:
+ORDER BY `nama_guru` ASC', [...], false)
+ 5 APPPATH\Models\ModelMapel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mapel.php(36): App\Models\ModelMapel->allDataGuru('39')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 06:33:11 --> Column 'id_guru' in where clause is ambiguous
+CRITICAL - 2022-08-20 06:33:11 --> Column 'id_guru' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_kelas`
+WHERE `id_guru` = :id_guru:
+ORDER BY `nama_guru` ASC', [...], false)
+ 5 APPPATH\Models\ModelMapel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mapel.php(36): App\Models\ModelMapel->allDataGuru('39')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 06:33:33 --> Column 'id_guru' in where clause is ambiguous
+CRITICAL - 2022-08-20 06:33:33 --> Column 'id_guru' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_mapel`
+WHERE `id_guru` = :id_guru:
+ORDER BY `nama_guru` ASC', [...], false)
+ 5 APPPATH\Models\ModelMapel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mapel.php(36): App\Models\ModelMapel->allDataGuru('39')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 06:33:34 --> Column 'id_guru' in where clause is ambiguous
+CRITICAL - 2022-08-20 06:33:34 --> Column 'id_guru' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-mapel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-guru`.`id_mapel`
+WHERE `id_guru` = :id_guru:
+ORDER BY `nama_guru` ASC', [...], false)
+ 5 APPPATH\Models\ModelMapel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mapel.php(36): App\Models\ModelMapel->allDataGuru('39')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 06:34:01 --> Unknown column 'nama_guru' in 'order clause'
+CRITICAL - 2022-08-20 06:34:01 --> Unknown column 'nama_guru' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = :id_guru:
+ORDER BY `nama_guru` ASC', [...], false)
+ 5 APPPATH\Models\ModelMapel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mapel.php(36): App\Models\ModelMapel->allDataGuru('39')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 06:34:02 --> Unknown column 'nama_guru' in 'order clause'
+CRITICAL - 2022-08-20 06:34:02 --> Unknown column 'nama_guru' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = :id_guru:
+ORDER BY `nama_guru` ASC', [...], false)
+ 5 APPPATH\Models\ModelMapel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mapel.php(36): App\Models\ModelMapel->allDataGuru('39')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:34:22 --> Too few arguments to function App\Models\ModelMapel::allDataGuru(), 1 passed in C:\xampp\htdocs\sistembelajar\app\Controllers\Mapel.php on line 36 and exactly 2 expected
+in APPPATH\Models\ModelMapel.php on line 25.
+ 1 APPPATH\Controllers\Mapel.php(36): App\Models\ModelMapel->allDataGuru('39')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:34:22 --> Too few arguments to function App\Models\ModelMapel::allDataGuru(), 1 passed in C:\xampp\htdocs\sistembelajar\app\Controllers\Mapel.php on line 36 and exactly 2 expected
+in APPPATH\Models\ModelMapel.php on line 25.
+ 1 APPPATH\Controllers\Mapel.php(36): App\Models\ModelMapel->allDataGuru('39')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:39:47 --> Undefined array key "nama_guru"
+in APPPATH\Views\admin\mapel\v_detail.php on line 79.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_guru"', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:40:57 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:40:58 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:41:50 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:41:51 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:42:19 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:42:20 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:42:43 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:42:44 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:42:53 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:43:15 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:43:59 --> Undefined variable $id_guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:44:05 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:44:45 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:47:58 --> Undefined property: App\Controllers\Mapel::$db
+in APPPATH\Controllers\Mapel.php on line 32.
+ 1 APPPATH\Controllers\Mapel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mapel::$db', 'APPPATH\\Controllers\\Mapel.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:48:00 --> Undefined property: App\Controllers\Mapel::$db
+in APPPATH\Controllers\Mapel.php on line 32.
+ 1 APPPATH\Controllers\Mapel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mapel::$db', 'APPPATH\\Controllers\\Mapel.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:48:16 --> Undefined property: App\Controllers\Mapel::$db
+in APPPATH\Controllers\Mapel.php on line 32.
+ 1 APPPATH\Controllers\Mapel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mapel::$db', 'APPPATH\\Controllers\\Mapel.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:48:17 --> Undefined property: App\Controllers\Mapel::$db
+in APPPATH\Controllers\Mapel.php on line 32.
+ 1 APPPATH\Controllers\Mapel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mapel::$db', 'APPPATH\\Controllers\\Mapel.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:48:18 --> Undefined property: App\Controllers\Mapel::$db
+in APPPATH\Controllers\Mapel.php on line 32.
+ 1 APPPATH\Controllers\Mapel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mapel::$db', 'APPPATH\\Controllers\\Mapel.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:48:18 --> Undefined property: App\Controllers\Mapel::$db
+in APPPATH\Controllers\Mapel.php on line 32.
+ 1 APPPATH\Controllers\Mapel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mapel::$db', 'APPPATH\\Controllers\\Mapel.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:48:19 --> Undefined property: App\Controllers\Mapel::$db
+in APPPATH\Controllers\Mapel.php on line 32.
+ 1 APPPATH\Controllers\Mapel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mapel::$db', 'APPPATH\\Controllers\\Mapel.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:48:42 --> Undefined property: App\Controllers\Mapel::$db
+in APPPATH\Controllers\Mapel.php on line 32.
+ 1 APPPATH\Controllers\Mapel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mapel::$db', 'APPPATH\\Controllers\\Mapel.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:48:43 --> Undefined property: App\Controllers\Mapel::$db
+in APPPATH\Controllers\Mapel.php on line 32.
+ 1 APPPATH\Controllers\Mapel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mapel::$db', 'APPPATH\\Controllers\\Mapel.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:50:13 --> Undefined property: App\Controllers\Mapel::$db
+in APPPATH\Controllers\Mapel.php on line 32.
+ 1 APPPATH\Controllers\Mapel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mapel::$db', 'APPPATH\\Controllers\\Mapel.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:50:14 --> Undefined property: App\Controllers\Mapel::$db
+in APPPATH\Controllers\Mapel.php on line 32.
+ 1 APPPATH\Controllers\Mapel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mapel::$db', 'APPPATH\\Controllers\\Mapel.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:50:15 --> Undefined property: App\Controllers\Mapel::$db
+in APPPATH\Controllers\Mapel.php on line 32.
+ 1 APPPATH\Controllers\Mapel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mapel::$db', 'APPPATH\\Controllers\\Mapel.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 09:06:10 --> Undefined variable $kode_guru
+in APPPATH\Views\admin\guru\v_index.php on line 42.
+ 1 APPPATH\Views\admin\guru\v_index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_guru', 'APPPATH\\Views\\admin\\guru\\v_index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\guru\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/guru/v_index', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/guru/v_index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Guru.php(22): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Guru->index()
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 11:20:52 --> syntax error, unexpected identifier "rombel", expecting "]"
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Rombel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\rombel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\rombel')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\rombel', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 11:20:55 --> syntax error, unexpected identifier "rombel", expecting "]"
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Rombel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\rombel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\rombel')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\rombel', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 11:20:56 --> syntax error, unexpected identifier "rombel", expecting "]"
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Rombel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\rombel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\rombel')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\rombel', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 11:21:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 APPPATH\Controllers\Rombel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rombel.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->detail_rombel('base_url()')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 11:46:54 --> Undefined array key "nama_guru"
+in APPPATH\Views\admin\mapel\v_detail.php on line 79.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_guru"', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 11:51:08 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 11:53:28 --> Undefined array key "nama_guru"
+in APPPATH\Views\admin\mapel\v_detail.php on line 79.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_guru"', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(39): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 11:56:04 --> Unknown column 'nama_guru' in 'order clause'
+CRITICAL - 2022-08-20 11:56:04 --> Unknown column 'nama_guru' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = :id_guru:
+ORDER BY `nama_guru` ASC', [...], false)
+ 5 APPPATH\Models\ModelMapel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mapel.php(37): App\Models\ModelMapel->allDataGuru('39')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 11:56:18 --> Unknown column 'nama_guru' in 'order clause'
+CRITICAL - 2022-08-20 11:56:18 --> Unknown column 'nama_guru' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = \'39\'
+ORDER BY `nama_guru` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-mapel`
+WHERE `id_guru` = :id_guru:
+ORDER BY `nama_guru` ASC', [...], false)
+ 5 APPPATH\Models\ModelMapel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mapel.php(37): App\Models\ModelMapel->allDataGuru('39')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 11:56:46 --> Undefined array key "nama_guru"
+in APPPATH\Views\admin\mapel\v_detail.php on line 79.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_guru"', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(40): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 11:57:05 --> Undefined array key "nama_guru"
+in APPPATH\Views\admin\mapel\v_detail.php on line 79.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_guru"', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(40): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 12:01:53 --> Too few arguments to function App\Controllers\Mapel::detail(), 1 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 2 expected
+in APPPATH\Controllers\Mapel.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 12:05:15 --> Undefined array key "nama_guru"
+in APPPATH\Views\admin\mapel\v_detail.php on line 79.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_guru"', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(40): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 13:15:18 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-08-20 13:15:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-kelas`
+ORDER BY `id_kelas` DESC', [], false)
+ 3 APPPATH\Models\ModelKelas.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Mapel.php(21): App\Models\ModelKelas->allData()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 13:15:22 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-08-20 13:15:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-kelas`
+ORDER BY `id_kelas` DESC', [], false)
+ 3 APPPATH\Models\ModelKelas.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Mapel.php(21): App\Models\ModelKelas->allData()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 13:18:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\mapel\v_detail.php on line 17.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 13:19:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\mapel\v_detail.php on line 17.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 13:26:09 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 13:26:45 --> Undefined variable $guru
+in APPPATH\Views\admin\mapel\v_detail.php on line 135.
+ 1 APPPATH\Views\admin\mapel\v_detail.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\admin\\mapel\\v_detail.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_detail', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_detail')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(38): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->detail('39')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

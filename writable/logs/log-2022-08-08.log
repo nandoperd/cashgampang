@@ -1,0 +1,234 @@
+CRITICAL - 2022-08-08 06:16:00 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:20:39 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:22:44 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:24:14 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:25:59 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:28:27 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:28:29 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:28:30 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:28:34 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:29:02 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:29:06 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:29:30 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:29:31 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:29:59 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:30:00 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:30:56 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:30:58 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:32:37 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:32:37 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:32:38 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:32:39 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:32:39 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:32:40 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:33:31 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 06:37:01 --> Too few arguments to function App\Controllers\Mapel::edit(), 0 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mapel.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 08:08:34 --> Undefined array key "kode_prodi"
+in APPPATH\Views\admin\mapel\v_edit.php on line 61.
+ 1 APPPATH\Views\admin\mapel\v_edit.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_prodi"', 'APPPATH\\Views\\admin\\mapel\\v_edit.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_edit', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_edit')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(87): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit('1')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 08:08:39 --> Undefined array key "kode_prodi"
+in APPPATH\Views\admin\mapel\v_edit.php on line 61.
+ 1 APPPATH\Views\admin\mapel\v_edit.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_prodi"', 'APPPATH\\Views\\admin\\mapel\\v_edit.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_edit', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_edit')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(87): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit('1')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 08:09:13 --> Undefined array key "kode_mapel"
+in APPPATH\Views\admin\mapel\v_edit.php on line 61.
+ 1 APPPATH\Views\admin\mapel\v_edit.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_mapel"', 'APPPATH\\Views\\admin\\mapel\\v_edit.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_edit', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_edit')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(87): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit('1')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 08:09:15 --> Undefined array key "kode_mapel"
+in APPPATH\Views\admin\mapel\v_edit.php on line 61.
+ 1 APPPATH\Views\admin\mapel\v_edit.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_mapel"', 'APPPATH\\Views\\admin\\mapel\\v_edit.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\mapel\\v_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/mapel/v_edit', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/mapel/v_edit')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Mapel.php(87): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->edit('1')
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 08:31:47 --> Undefined array key "id_kelas"
+in APPPATH\Models\ModelKelas.php on line 30.
+ 1 APPPATH\Models\ModelKelas.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kelas"', 'APPPATH\\Models\\ModelKelas.php', 30)
+ 2 APPPATH\Controllers\Mapel.php(123): App\Models\ModelKelas->delete_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mapel->delete('3')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,35 @@
+CRITICAL - 2022-08-14 11:15:51 --> Undefined property: App\Controllers\User::$ModelKelas
+in APPPATH\Controllers\User.php on line 162.
+ 1 APPPATH\Controllers\User.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$ModelKelas', 'APPPATH\\Controllers\\User.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->delete('2')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 11:16:23 --> unlink(foto/1660493483_fb18e4aa07060a59b776.png): No such file or directory
+in APPPATH\Controllers\User.php on line 157.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(foto/1660493483_fb18e4aa07060a59b776.png): No such file or directory', 'APPPATH\\Controllers\\User.php', 157)
+ 2 APPPATH\Controllers\User.php(157): unlink('foto/1660493483_fb18e4aa07060a59b776.png')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->delete('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 11:17:06 --> unlink(foto/1660493483_fb18e4aa07060a59b776.png): No such file or directory
+in APPPATH\Controllers\User.php on line 129.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(foto/1660493483_fb18e4aa07060a59b776.png): No such file or directory', 'APPPATH\\Controllers\\User.php', 129)
+ 2 APPPATH\Controllers\User.php(129): unlink('foto/1660493483_fb18e4aa07060a59b776.png')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->edit('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 11:45:36 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Guru.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Guru.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\guru')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\guru')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\guru', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 11:46:37 --> Cannot declare class App\Controllers\Guru, because the name is already in use
+in APPPATH\Models\ModelGuru.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

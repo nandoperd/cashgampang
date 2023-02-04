@@ -1,0 +1,152 @@
+CRITICAL - 2022-08-18 07:50:50 --> Undefined variable $user
+in APPPATH\Views\admin\v_rombel.php on line 55.
+ 1 APPPATH\Views\admin\v_rombel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\admin\\v_rombel.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\v_rombel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/v_rombel', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('admin/v_rombel')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Rombel.php(13): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->index()
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 07:59:51 --> Not unique table/alias: 'tbl-kelas'
+CRITICAL - 2022-08-18 07:59:51 --> Not unique table/alias: 'tbl-kelas'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-kelas` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-kelas` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-kelas` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-kelas` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC', [], false)
+ 5 APPPATH\Models\ModelRombel.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rombel.php(21): App\Models\ModelRombel->allData()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 07:59:52 --> Not unique table/alias: 'tbl-kelas'
+CRITICAL - 2022-08-18 07:59:52 --> Not unique table/alias: 'tbl-kelas'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-kelas` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-kelas` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-kelas` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-kelas` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC', [], false)
+ 5 APPPATH\Models\ModelRombel.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rombel.php(21): App\Models\ModelRombel->allData()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 08:02:42 --> Unknown column 'tbl-rombel.id_dosen' in 'on clause'
+CRITICAL - 2022-08-18 08:02:42 --> Unknown column 'tbl-rombel.id_dosen' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC', [], false)
+ 5 APPPATH\Models\ModelRombel.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rombel.php(21): App\Models\ModelRombel->allData()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-18 08:02:43 --> Unknown column 'tbl-rombel.id_dosen' in 'on clause'
+CRITICAL - 2022-08-18 08:02:43 --> Unknown column 'tbl-rombel.id_dosen' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_dosen`
+ORDER BY `tbl-rombel`.`id_kelas` ASC', [], false)
+ 5 APPPATH\Models\ModelRombel.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rombel.php(21): App\Models\ModelRombel->allData()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-18 08:23:03 --> Unclosed '{' on line 106
+in APPPATH\Views\admin\v_rombel.php on line 127.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/v_rombel', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('admin/v_rombel')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Rombel.php(24): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

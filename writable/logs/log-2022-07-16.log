@@ -1,0 +1,15 @@
+CRITICAL - 2022-07-16 10:16:25 --> Undefined variable $nama_user
+in APPPATH\Views\layout\v_nav.php on line 56.
+ 1 APPPATH\Views\layout\v_nav.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_user', 'APPPATH\\Views\\layout\\v_nav.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_nav', [], true)
+ 5 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_nav')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+ 9 APPPATH\Controllers\Admin.php(13): view('layout/v_wrapper', [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

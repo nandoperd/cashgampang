@@ -1,0 +1,35 @@
+ERROR - 2022-08-24 02:12:46 --> Unknown column 'tbl-rombel.kelas' in 'order clause'
+CRITICAL - 2022-08-24 02:12:46 --> Unknown column 'tbl-rombel.kelas' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_guru`
+ORDER BY `tbl-rombel`.`kelas` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_guru`
+ORDER BY `tbl-rombel`.`kelas` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_guru`
+ORDER BY `tbl-rombel`.`kelas` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-rombel`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-rombel`.`id_kelas`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-rombel`.`id_guru`
+ORDER BY `tbl-rombel`.`kelas` ASC', [], false)
+ 5 APPPATH\Models\ModelRombel.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rombel.php(23): App\Models\ModelRombel->allData()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-24 02:18:27 --> Too few arguments to function App\Controllers\JadwalPelajaran::delete(), 1 passed in C:\xampp\htdocs\sistembelajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 2 expected
+in APPPATH\Controllers\JadwalPelajaran.php on line 118.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\JadwalPelajaran->delete('24')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalPelajaran))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

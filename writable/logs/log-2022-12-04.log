@@ -1,0 +1,32 @@
+CRITICAL - 2022-12-04 22:50:24 --> unlink(foto/1668071576_60514d43d9a97a8862fc.png): No such file or directory
+in APPPATH\Controllers\User.php on line 129.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(foto/1668071576_60514d43d9a97a8862fc.png): No such file or directory', 'APPPATH\\Controllers\\User.php', 129)
+ 2 APPPATH\Controllers\User.php(129): unlink('foto/1668071576_60514d43d9a97a8862fc.png')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->edit('1')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 22:57:24 --> unlink(foto/1668071576_60514d43d9a97a8862fc.png): No such file or directory
+in APPPATH\Controllers\User.php on line 129.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(foto/1668071576_60514d43d9a97a8862fc.png): No such file or directory', 'APPPATH\\Controllers\\User.php', 129)
+ 2 APPPATH\Controllers\User.php(129): unlink('foto/1668071576_60514d43d9a97a8862fc.png')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->edit('1')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 22:57:53 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `tbl-kelas` (`kelas`, `guru`) VALUES (:kelas:, :guru:)', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(86): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Debug\Toolbar\Collectors\Database::collect(Object(CodeIgniter\Database\Query))
+ 7 SYSTEMPATH\Database\BaseConnection.php(639): CodeIgniter\Events\Events::trigger('DBQuery', Object(CodeIgniter\Database\Query))
+ 8 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl-kelas` (`kelas`, `guru`) VALUES (:kelas:, :guru:)', [...], false)
+ 9 APPPATH\Models\ModelKelas.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+10 APPPATH\Controllers\kelas.php(57): App\Models\ModelKelas->add([...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kelas->add()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

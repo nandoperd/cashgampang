@@ -1,0 +1,401 @@
+CRITICAL - 2022-08-26 09:00:50 --> Undefined variable $siswa
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 12.
+ 1 APPPATH\Views\halsiswa\kss\v_kss.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'APPPATH\\Views\\halsiswa\\kss\\v_kss.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\halsiswa\\kss\\v_kss.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Kss.php(25): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 09:01:11 --> Array callback must have exactly two elements
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 4 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 8 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+12 APPPATH\Controllers\Kss.php(25): view('layout/v_wrapper', [...])
+13 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+14 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+15 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 09:01:14 --> Array callback must have exactly two elements
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 4 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 8 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+12 APPPATH\Controllers\Kss.php(25): view('layout/v_wrapper', [...])
+13 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+14 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+15 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 09:01:33 --> Array callback must have exactly two elements
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 4 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 8 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+12 APPPATH\Controllers\Kss.php(25): view('layout/v_wrapper', [...])
+13 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+14 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+15 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 09:02:48 --> Unsupported operand types: string / string
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 4 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 8 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+12 APPPATH\Controllers\Kss.php(25): view('layout/v_wrapper', [...])
+13 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+14 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+15 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 09:02:49 --> Unsupported operand types: string / string
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 4 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 8 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+12 APPPATH\Controllers\Kss.php(25): view('layout/v_wrapper', [...])
+13 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+14 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+15 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 09:10:15 --> Unknown column 'tbl-siswa.id_guru' in 'on clause'
+CRITICAL - 2022-08-26 09:10:15 --> Unknown column 'tbl-siswa.id_guru' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-siswa`.`id_guru`
+WHERE `nis` = \'222307002\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-siswa`.`id_guru`
+WHERE `nis` = \'222307002\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-siswa`.`id_guru`
+WHERE `nis` = \'222307002\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-siswa`.`id_guru`
+WHERE `nis` = :nis:', [...], false)
+ 5 APPPATH\Models\ModelKss.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Kss.php(22): App\Models\ModelKss->DataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 09:13:14 --> Unknown column 'tbl-kelas.id_guru' in 'on clause'
+CRITICAL - 2022-08-26 09:13:14 --> Unknown column 'tbl-kelas.id_guru' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-kelas`.`id_guru`
+WHERE `nis` = \'222307002\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-kelas`.`id_guru`
+WHERE `nis` = \'222307002\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-kelas`.`id_guru`
+WHERE `nis` = \'222307002\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-guru` ON `tbl-guru`.`id_guru` = `tbl-kelas`.`id_guru`
+WHERE `nis` = :nis:', [...], false)
+ 5 APPPATH\Models\ModelKss.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Kss.php(22): App\Models\ModelKss->DataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 09:13:57 --> Not unique table/alias: 'tbl-rombel'
+CRITICAL - 2022-08-26 09:13:57 --> Not unique table/alias: 'tbl-rombel'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-rombel`.`id_guru`
+WHERE `nis` = \'222307002\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-rombel`.`id_guru`
+WHERE `nis` = \'222307002\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-rombel`.`id_guru`
+WHERE `nis` = \'222307002\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-rombel`.`id_guru`
+WHERE `nis` = :nis:', [...], false)
+ 5 APPPATH\Models\ModelKss.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Kss.php(22): App\Models\ModelKss->DataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 09:13:59 --> Not unique table/alias: 'tbl-rombel'
+CRITICAL - 2022-08-26 09:13:59 --> Not unique table/alias: 'tbl-rombel'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-rombel`.`id_guru`
+WHERE `nis` = \'222307002\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-rombel`.`id_guru`
+WHERE `nis` = \'222307002\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-rombel`.`id_guru`
+WHERE `nis` = \'222307002\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl-siswa`
+LEFT JOIN `tbl-kelas` ON `tbl-kelas`.`id_kelas` = `tbl-siswa`.`id_kelas`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-siswa`.`id_rombel`
+LEFT JOIN `tbl-rombel` ON `tbl-rombel`.`id_rombel` = `tbl-rombel`.`id_guru`
+WHERE `nis` = :nis:', [...], false)
+ 5 APPPATH\Models\ModelKss.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Kss.php(22): App\Models\ModelKss->DataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 09:32:03 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH\Debug\Toolbar.php on line 421.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 421)
+ 2 SYSTEMPATH\Debug\Toolbar.php(421): strpos(null, '<head>')
+ 3 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 4 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 5 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\Filters\Filters->run('guru', 'after')
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 10:13:26 --> Undefined variable $guru
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 98.
+ 1 APPPATH\Views\halsiswa\kss\v_kss.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\halsiswa\\kss\\v_kss.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\halsiswa\\kss\\v_kss.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Kss.php(25): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 10:15:48 --> Undefined variable $guru
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 98.
+ 1 APPPATH\Views\halsiswa\kss\v_kss.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\halsiswa\\kss\\v_kss.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\halsiswa\\kss\\v_kss.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Kss.php(25): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 10:16:08 --> Undefined variable $guru
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 98.
+ 1 APPPATH\Views\halsiswa\kss\v_kss.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'APPPATH\\Views\\halsiswa\\kss\\v_kss.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\halsiswa\\kss\\v_kss.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Kss.php(25): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 11:39:08 --> Cannot access offset of type string on string
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 105.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 4 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 8 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+12 APPPATH\Controllers\Kss.php(26): view('layout/v_wrapper', [...])
+13 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+14 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+15 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 11:39:22 --> Undefined variable $mapel
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 105.
+ 1 APPPATH\Views\halsiswa\kss\v_kss.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mapel', 'APPPATH\\Views\\halsiswa\\kss\\v_kss.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\halsiswa\\kss\\v_kss.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Kss.php(26): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 11:42:18 --> Undefined array key "semester"
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 108.
+ 1 APPPATH\Views\halsiswa\kss\v_kss.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "semester"', 'APPPATH\\Views\\halsiswa\\kss\\v_kss.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\halsiswa\\kss\\v_kss.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Kss.php(26): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 11:42:29 --> Undefined array key "nama_rombel"
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 109.
+ 1 APPPATH\Views\halsiswa\kss\v_kss.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_rombel"', 'APPPATH\\Views\\halsiswa\\kss\\v_kss.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\halsiswa\\kss\\v_kss.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Kss.php(26): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 23:28:23 --> Undefined array key "nama_rombel"
+in APPPATH\Views\halsiswa\kss\v_kss.php on line 79.
+ 1 APPPATH\Views\halsiswa\kss\v_kss.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_rombel"', 'APPPATH\\Views\\halsiswa\\kss\\v_kss.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\halsiswa\\kss\\v_kss.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('halsiswa/kss/v_kss', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('halsiswa/kss/v_kss')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Kss.php(27): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kss->index()
+15 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kss))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

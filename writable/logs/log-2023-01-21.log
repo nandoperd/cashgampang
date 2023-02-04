@@ -1,0 +1,215 @@
+CRITICAL - 2023-01-21 00:50:48 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Payroll.php on line 32.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('payroll')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('payroll')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('payroll')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 00:50:50 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Payroll.php on line 32.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('payroll')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('payroll')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('payroll')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:00:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 APPPATH\Controllers\Rombel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rombel.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->detail_rombel('assets', 'css', 'bootstrap.css')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:00:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 APPPATH\Controllers\Rombel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rombel.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->detail_rombel('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:00:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 APPPATH\Controllers\Rombel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rombel.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->detail_rombel('assets', 'js', 'jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:00:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 APPPATH\Controllers\Rombel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rombel.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->detail_rombel('assets', 'js', 'bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:00:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 APPPATH\Controllers\Rombel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rombel.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->detail_rombel('FCPATH\\img', 'logocg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:00:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 APPPATH\Controllers\Rombel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rombel.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->detail_rombel('assets', 'js', 'jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:00:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 APPPATH\Controllers\Rombel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rombel.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->detail_rombel('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:00:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 APPPATH\Controllers\Rombel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rombel.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->detail_rombel('assets', 'js', 'bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:00:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 APPPATH\Controllers\Rombel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rombel.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->detail_rombel('assets', 'css', 'bootstrap.css')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:00:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rombel.php on line 94.
+ 1 APPPATH\Controllers\Rombel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rombel.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Rombel->detail_rombel('FCPATH\\img', 'logocg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:26:57 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Payroll.php on line 59.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('payroll')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('payroll')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('payroll')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:27:30 --> Class "App\Models\ModelFots" not found
+in APPPATH\Controllers\Payroll.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Payroll->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:28:27 --> Class "App\Models\ModelFots" not found
+in APPPATH\Controllers\Payroll.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Payroll->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:28:35 --> Class "App\Models\ModelFots" not found
+in APPPATH\Controllers\Payroll.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Payroll->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:28:40 --> Class "App\Models\ModelFots" not found
+in APPPATH\Controllers\Payroll.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Payroll->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:31:11 --> Class "App\Models\ModelFots" not found
+in APPPATH\Controllers\Payroll.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Payroll->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:36:31 --> Undefined property: App\Controllers\Payroll::$ModelFots
+in APPPATH\Controllers\Payroll.php on line 22.
+ 1 APPPATH\Controllers\Payroll.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payroll::$ModelFots', 'APPPATH\\Controllers\\Payroll.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:37:34 --> Undefined property: App\Controllers\Payroll::$ModelFots
+in APPPATH\Controllers\Payroll.php on line 22.
+ 1 APPPATH\Controllers\Payroll.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payroll::$ModelFots', 'APPPATH\\Controllers\\Payroll.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 01:39:48 --> Undefined property: App\Controllers\Payroll::$ModelFots
+in APPPATH\Controllers\Payroll.php on line 22.
+ 1 APPPATH\Controllers\Payroll.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payroll::$ModelFots', 'APPPATH\\Controllers\\Payroll.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 02:04:18 --> Undefined property: App\Controllers\Payroll::$ModelFots
+in APPPATH\Controllers\Payroll.php on line 22.
+ 1 APPPATH\Controllers\Payroll.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payroll::$ModelFots', 'APPPATH\\Controllers\\Payroll.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 02:05:45 --> Undefined property: App\Controllers\Payroll::$ModelFots
+in APPPATH\Controllers\Payroll.php on line 22.
+ 1 APPPATH\Controllers\Payroll.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payroll::$ModelFots', 'APPPATH\\Controllers\\Payroll.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 02:05:45 --> Undefined property: App\Controllers\Payroll::$ModelFots
+in APPPATH\Controllers\Payroll.php on line 22.
+ 1 APPPATH\Controllers\Payroll.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payroll::$ModelFots', 'APPPATH\\Controllers\\Payroll.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 02:05:49 --> Undefined property: App\Controllers\Payroll::$ModelFots
+in APPPATH\Controllers\Payroll.php on line 22.
+ 1 APPPATH\Controllers\Payroll.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payroll::$ModelFots', 'APPPATH\\Controllers\\Payroll.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 02:06:38 --> Undefined property: App\Controllers\Payroll::$ModelFots
+in APPPATH\Controllers\Payroll.php on line 22.
+ 1 APPPATH\Controllers\Payroll.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payroll::$ModelFots', 'APPPATH\\Controllers\\Payroll.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 02:07:50 --> Undefined property: App\Controllers\Payroll::$ModelFots
+in APPPATH\Controllers\Payroll.php on line 22.
+ 1 APPPATH\Controllers\Payroll.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payroll::$ModelFots', 'APPPATH\\Controllers\\Payroll.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 02:07:51 --> Undefined property: App\Controllers\Payroll::$ModelFots
+in APPPATH\Controllers\Payroll.php on line 22.
+ 1 APPPATH\Controllers\Payroll.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payroll::$ModelFots', 'APPPATH\\Controllers\\Payroll.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 02:07:51 --> Undefined property: App\Controllers\Payroll::$ModelFots
+in APPPATH\Controllers\Payroll.php on line 22.
+ 1 APPPATH\Controllers\Payroll.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payroll::$ModelFots', 'APPPATH\\Controllers\\Payroll.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 02:31:52 --> Undefined property: App\Controllers\Payroll::$ModelFots
+in APPPATH\Controllers\Payroll.php on line 22.
+ 1 APPPATH\Controllers\Payroll.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payroll::$ModelFots', 'APPPATH\\Controllers\\Payroll.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 02:38:03 --> Undefined property: App\Controllers\Payroll::$ModelFots
+in APPPATH\Controllers\Payroll.php on line 22.
+ 1 APPPATH\Controllers\Payroll.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payroll::$ModelFots', 'APPPATH\\Controllers\\Payroll.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Payroll->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
